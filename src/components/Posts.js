@@ -23,8 +23,8 @@ class Posts extends Component {
     ))
 
     return (
-      <div className="">
-        Hello from Posts
+      <div className="p-3">
+        <h4>Hello from Posts</h4>
         {postItems}
       </div>
     )

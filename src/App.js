@@ -6,11 +6,9 @@ import PostForm from './components/PostForm';
 function App() {
   return (
     <div className="content">
-      <h2 className="bg-secondary text-white p-3">Hello from App.js</h2>
-      <div className="container-fluid">
-        <PostForm />
-        <Posts />
-      </div>
+      <h2 className="bg-info text-white m-0 p-3">Hello from App.js</h2>
+      <PostForm />
+      <Posts />
     </div>
   );
 }
